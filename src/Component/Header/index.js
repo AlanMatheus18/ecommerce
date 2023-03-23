@@ -1,13 +1,15 @@
 import img_logo from "../../assets/img_logo.png";
-import img_carrinho from "../../assets/img_carrinho.png";
 import "./style.css";
+import {BsCart4} from "react-icons/bs"
 
 export const Header = () => {
   return (
     <div className="header">
+      <div className="subheader">
       <img className="img_logo" src={img_logo} alt="logo ecommerce" />
       <p className="title_logo">Atacadista</p>
-      <img className="img_carrinho" src={img_carrinho} alt="img_carrinho" />
+      </div>
+      <BsCart4 className="img_carrinho"/>
     </div>
   );
 };
