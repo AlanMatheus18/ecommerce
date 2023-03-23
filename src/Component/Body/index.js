@@ -24,6 +24,8 @@ export const Body = () =>{
                 <p className="title_product">{product.title}</p>
                 <p className="description_product">{product.description}</p>
                 <p className="price_product">R${product.price}</p>
+
+                
                 <button><BsFillCartPlusFill className="add_products"/></button>
             </div>
             )
